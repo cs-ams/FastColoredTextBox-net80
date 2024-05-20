@@ -1,4 +1,4 @@
-FastColoredTextBox
+FastColoredTextBox .NET 8.0
 ==================
 
 Fast Colored TextBox is text editor component for .NET.
