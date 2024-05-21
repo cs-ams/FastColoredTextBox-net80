@@ -30,14 +30,17 @@ using System.Drawing.Drawing2D;
 using System.IO;
 using System.Reflection;
 using System.Runtime.InteropServices;
+using System.Runtime.Versioning;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading;
 using System.Windows.Forms;
 using System.Windows.Forms.Design;
 using Microsoft.Win32;
+using MethodInvoker = System.Windows.Forms.MethodInvoker;
 using Timer = System.Windows.Forms.Timer;
 
+[assembly: SupportedOSPlatform("windows")]
 namespace FastColoredTextBoxNS
 {
     /// <summary>
